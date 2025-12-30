@@ -20,19 +20,22 @@ group naming.
 - Persistent configuration storage
 
 ---
-
+```
 ## Project Structure
 
 food-bank-inventory/
 │
-├── main.py                # Application entry point
-├── menu_manager.py        # Menu handling and user interaction
-├── food_groups.py         # Food group normalization and mapping
-├── measurements.py        # Unit formatting and validation
-├── config.py              # Sample configuration for demonstration
-├── sample_inventory.csv   # Sample inventory data for demonstration
-└── README.md
-
+├── README.md # Project overview and instructions
+├── config.py # Configuration and persistence logic
+├── config.txt # Optional text-based configuration/demo data
+├── food_groups.py # Food group normalization and mapping
+├── inventory.py # Inventory management logic
+├── item.py # Individual item class and related logic
+├── main.py # Application entry point
+├── measurements.py # Unit formatting and validation
+├── menu_manager.py # Menu handling and user interaction
+└── sample_inventory.csv # Sample inventory data for demonstration
+```
 ---
 
 ## Sample / Demo Data
