@@ -1,0 +1,2 @@
+Food Bank Name: Sample Community Food Bank
+Inventory CSV: sample_inventory.csv
